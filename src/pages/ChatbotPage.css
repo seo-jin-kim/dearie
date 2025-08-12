@@ -1,0 +1,72 @@
+/* src/pages/ChatbotPage.css */
+.chatbot-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow: hidden;
+  position: fixed;
+  inset: 0;
+  max-width: 768px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.chatbot-page::-webkit-scrollbar {
+  display: none;
+}
+
+.chatbot-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+
+
+
+.chatbot-body {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  max-height: 100vh;
+  background: url('/chatBot/chatBot-bg.png') center/cover no-repeat;
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none; 
+  overflow: hidden;
+}
+
+
+.chatbot-body.heart {
+  background-image: url('/chatBot/chatBot-bg.png');
+}
+
+/* 중립 그룹: calm */
+.chatbot-body.fire {
+  background-image: url('/chatBot/chatBot-bg-2.png');
+}
+
+/* 부정 그룹: melancholy */
+.chatbot-body.green {
+  background-image: url('/chatBot/chatBot-bg-3.png');
+}
+
+.chatbot-body > .chat-window {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE/Edge */
+}
+
+.chatbot-body::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
+
+.chat-disabled-notice {
+  color: #fff;
+  white-space: pre-line;
+}
