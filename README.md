@@ -80,7 +80,6 @@ https://dearie-app-v3.vercel.app/
 ### 🎨 UI/UX
 
 - CSS3 / Flexbox / Grid 기반 반응형 UI 구현
-- Swiper.js를 활용한 게시글 이미지 슬라이드 구현
 - 1분 단위 자동 리렌더링으로 시간 표시 실시간 갱신 (`N분 전`, `N시간 전` 등)
 
 ---
@@ -88,5 +87,3 @@ https://dearie-app-v3.vercel.app/
 ## 🔧 개선 사항
 
 - 유저 인증 기능 추가 (JWT) — 현재 localStorage userId로 대체 중
-- 이미지 서버 업로드 방식으로 전환
-- 모바일 UI 최적화
