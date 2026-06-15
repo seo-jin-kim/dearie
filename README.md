@@ -66,7 +66,7 @@ https://dearie-app-v3.vercel.app/
 ### 🎯 Frontend
 
 **React 기반 아티스트 페이지 구조 설계 및 구현**
-- 아티스트페이지 5개 섹션(Highlight / Artist / To. / Talk / Content) 및 상세 페이지 전체 구현
+- 아티스트페이지 4개 섹션(Highlight / Artist / Talk / Content) 및 상세 페이지 전체 구현
 - 탭 컴포넌트를 배열로 관리해 확장성 확보, 탭 상태를 localStorage에 저장해 뒤로가기 후 복원 구현
 
 **Talk 섹션 게시글 CRUD 구현**
